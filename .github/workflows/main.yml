@@ -1,8 +1,5 @@
 name: Build Dengan Cron
 on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
 
 jobs:
   build-and-deploy:
@@ -24,7 +21,7 @@ jobs:
         uses: jsmrcaga/action-netlify-deploy@v1.2.0
         with:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_TOKEN }}
-          NETLIFY_SITE_ID: ?????
+          NETLIFY_SITE_ID: 264b7750-561a-4319-ac82-adb446aac3d8
           NETLIFY_DEPLOY_TO_PROD: true
           build_directory: 'public'
 
