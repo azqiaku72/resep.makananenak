@@ -10,7 +10,7 @@ author: Katie Vasquez
 ratingvalue: 3.4
 reviewcount: 11
 recipeingredient:
-- "1\4 terigu berprotein tinggi"
+- "1/4 terigu berprotein tinggi"
 - "1 butir telur"
 - "3 sdm gula pasir"
 - "1 sdt fermipan"
@@ -59,7 +59,7 @@ Nah, kali ini kita coba, yuk, siapkan donat ceria ala mahce sendiri di rumah. Te
 
 ##### Bahan-bahan dan bumbu yang digunakan dalam pembuatan Donat ceria ala mahce:
 
-1. Ambil 1\4 terigu berprotein tinggi
+1. Ambil 1/4 terigu berprotein tinggi
 1. Ambil 1 butir telur
 1. Ambil 3 sdm gula pasir
 1. Gunakan 1 sdt fermipan
