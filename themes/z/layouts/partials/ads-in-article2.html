@@ -1,0 +1,21 @@
+<p style="text-align: center;"><script type="text/javascript">
+	atOptions = {
+		'key' : '74535e47c9fe54260c7aa611802aed3d',
+		'format' : 'iframe',
+		'height' : 250,
+		'width' : 300,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://painsdire.com/74535e47c9fe54260c7aa611802aed3d/invoke.js"></scr' + 'ipt>');
+</script></p>
+<br>
+
+{{ $related := .Site.RegularPages.Related . | first 3 }}
+{{ with $related }}
+<b>Lihat Juga :</b>
+<ul>
+	{{ range . }}
+	<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+	{{ end }}
+</ul>
+{{ end }}
