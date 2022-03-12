@@ -5,4 +5,8 @@ command = "hugo"
 [context.production.environment]
 HUGO_VERSION = "0.78.0"
 HUGO_ENV = "production"
+<<<<<<< HEAD
 HUGO_ENABLEGITINFO = "true"
+=======
+HUGO_ENABLEGITINFO = "true"
+>>>>>>> b8ad5e16556c511aef8e06a089fbc653b953878c
